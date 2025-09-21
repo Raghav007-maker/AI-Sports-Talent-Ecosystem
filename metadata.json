@@ -1,0 +1,5 @@
+{
+  "name": "AI Sports Talent Ecosystem",
+  "description": "A mobile-first AI-powered platform connecting athletes and coaches. Athletes can get AI-driven performance analysis and bio generation, while coaches can use AI to scout, compare players, and create training drills.",
+  "requestFramePermissions": []
+}

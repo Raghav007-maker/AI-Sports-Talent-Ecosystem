@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Sports Talent Ecosystem</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#00A8E8',
+              'brand-secondary': '#007EA7',
+              // Dark theme colors
+              'dark-bg': '#121212',
+              'dark-card': '#1E1E1E',
+              'dark-border': '#2D2D2D',
+              'light-text': '#E0E0E0',
+              'medium-text': '#A0A0A0',
+              // Light theme colors
+              'light-bg': '#F7F9FC',
+              'light-card': '#FFFFFF',
+              'light-border': '#E0E6ED',
+              'dark-text': '#1A202C',
+              'medium-dark-text': '#4A5568',
+            },
+          },
+        },
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.1.1/",
+    "react": "https://aistudiocdn.com/react@^19.1.1",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.20.0"
+  }
+}
+</script>
+<link rel="stylesheet" href="/index.css">
+</head>
+  <body class="bg-light-bg dark:bg-dark-bg transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
