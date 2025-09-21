@@ -1,0 +1,188 @@
+{
+  "header": {
+    "title": "Talento Deportivo IA",
+    "athleteDashboard": "Panel de Atleta",
+    "coachDashboard": "Panel de Entrenador",
+    "logout": "Cerrar sesión"
+  },
+  "landingPage": {
+    "title": "Soy un...",
+    "athlete": "Atleta",
+    "coach": "Entrenador",
+    "athleteDescription": "Analiza mi rendimiento, sigue mi progreso y encuentra oportunidades.",
+    "coachDescription": "Busca talento, gestiona mi equipo y crea ejercicios personalizados."
+  },
+  "loginPage": {
+    "welcome": "Bienvenido al",
+    "appName": "Ecosistema de Talento Deportivo IA",
+    "title": "Acceso de {{role}}",
+    "emailLabel": "Correo electrónico",
+    "passwordLabel": "Contraseña",
+    "button": "Iniciar Sesión",
+    "loading": "Iniciando sesión...",
+    "error": "Fallo de inicio de sesión. Por favor, verifica tus credenciales y el rol seleccionado.",
+    "demoAthlete": "Atleta",
+    "demoCoach": "Entrenador",
+    "demoInfo": "Demo {{role}}: {{email}} / {{password}}",
+    "back": "Volver"
+  },
+  "athleteDashboard": {
+    "tabs": {
+      "profile": "Mi Perfil",
+      "analyzer": "Analizador de Rendimiento",
+      "progress": "Progreso",
+      "achievements": "Logros",
+      "leaderboard": "Clasificación",
+      "bio": "Generador de Biografía",
+      "events": "Eventos",
+      "timer": "Cronómetro",
+      "chatbot": "Chatbot"
+    }
+  },
+  "coachDashboard": {
+    "tabs": {
+      "roster": "Mi Equipo",
+      "comparer": "Comparador de Jugadores",
+      "drills": "Generador de Ejercicios",
+      "leaderboard": "Clasificación",
+      "events": "Eventos"
+    },
+    "myRoster": "Mi Equipo",
+    "noAthletes": "Aún no se te han asignado atletas.",
+    "talentPool": "Reserva de Talentos"
+  },
+  "athleteDetailView": {
+    "backToRoster": "Volver al Equipo",
+    "performanceHistory": "Historial de Rendimiento",
+    "aiAnalysis": "Análisis de IA",
+    "injuryDetected": "Lesión Detectada",
+    "futureInjuryRisk": "Riesgo de Lesión Futura",
+    "cheatDetectionLabel": "Detección de Trampas",
+    "coachFeedback": "Feedback del Entrenador",
+    "noAnalyses": "Aún no se han enviado análisis de rendimiento.",
+    "provideFeedbackPlaceholder": "Proporciona feedback constructivo...",
+    "submitFeedback": "Enviar Feedback",
+    "noFeedback": "Aún no se ha proporcionado feedback."
+  },
+  "profileCard": {
+    "loadImage": "Cargar",
+    "you": "Tú",
+    "sprint": "Velocidad",
+    "vertical": "Salto",
+    "endurance": "Resistencia",
+    "agility": "Agilidad"
+  },
+  "performanceAnalyzer": {
+    "title": "Analizador de Rendimiento con IA",
+    "description": "Sube un video o imagen de tu entrenamiento para recibir comentarios de la IA sobre tu técnica, riesgos de lesiones y más.",
+    "showPreview": "Mostrar Vista Previa",
+    "previewPlaceholder": "Tu video/imagen subido se mostrará aquí.",
+    "button": "Analizar Mi Rendimiento",
+    "loading": "Analizando...",
+    "errorUpload": "Por favor, sube un video o imagen primero.",
+    "resultsPlaceholder": "Tu análisis de IA aparecerá aquí.",
+    "techniqueAnalysis": "Análisis de Técnica",
+    "injuryRisk": "Evaluación de Riesgo de Lesión",
+    "cheatDetection": "Detección de Trampas",
+    "injuryDetection": "Detección de Lesión"
+  },
+  "bioGenerator": {
+    "title": "Generador de Biografía con IA",
+    "description": "Ingresa tus logros clave, estadísticas o aspiraciones, y deja que la IA elabore una biografía profesional para ti.",
+    "placeholder": "Ej: - Campeón Estatal 2023\n- Capitán del equipo (2 años)\n- Carrera de 40 yardas en 4.5s\n- Aspiro a jugar en la D1 de baloncesto universitario",
+    "button": "Generar Mi Biografía",
+    "loading": "Generando...",
+    "loaderMessage": "Creando tu biografía...",
+    "resultsPlaceholder": "Tu biografía generada aparecerá aquí."
+  },
+  "playerComparer": {
+    "title": "Comparador de Jugadores con IA",
+    "description": "Selecciona dos atletas de la reserva de talentos para generar un informe de visorias y una comparación impulsada por IA.",
+    "button": "Comparar Atletas Seleccionados",
+    "loading": "Comparando...",
+    "loaderMessage": "Generando informe de visorias..."
+  },
+  "drillGenerator": {
+    "title": "Generador de Ejercicios con IA",
+    "description": "Especifica un deporte y una habilidad para generar ejercicios de entrenamiento personalizados para tu equipo.",
+    "placeholder": "Ej: 'Driblar bajo presión'",
+    "button": "Generar Ejercicios",
+    "loading": "Generando...",
+    "loaderMessage": "Creando ejercicios personalizados...",
+    "objective": "Objetivo",
+    "setup": "Preparación",
+    "instructions": "Instrucciones"
+  },
+  "progressTracker": {
+    "title": "Mi Progreso",
+    "noHistoryTitle": "Aún no hay historial",
+    "noHistoryDescription": "Usa el Analizador de Rendimiento para obtener tu primer análisis de IA. Tu progreso se registrará aquí.",
+    "analysisFrom": "Análisis del {{date}} a las {{time}}",
+    "viewDetails": "Ver Detalles",
+    "hideDetails": "Ocultar Detalles"
+  },
+  "achievements": {
+    "title": "Mis Logros",
+    "aiScore": "Puntaje IA",
+    "streak": "Racha de Días",
+    "rank": "Puesto en Clasificación",
+    "badgesEarned": "Insignias Obtenidas",
+    "badges": "Insignias",
+    "noBadges": "Aún no has ganado insignias. ¡Sigue así!"
+  },
+  "leaderboard": {
+    "title": "Clasificación de Atletas",
+    "description": "Los mejores atletas clasificados por puntaje de rendimiento de IA y consistencia.",
+    "rank": "Puesto",
+    "athlete": "Atleta",
+    "aiScore": "Puntaje IA",
+    "streak": "Racha",
+    "load": "Cargar"
+  },
+  "settings": {
+    "title": "Configuración",
+    "buttonLabel": "Abrir configuración",
+    "language": "Idioma",
+    "accessibility": "Accesibilidad",
+    "lowBandwidthMode": "Modo de Ancho de Banda Bajo",
+    "lowBandwidthDescription": "Reduce el uso de datos al no cargar imágenes y videos automáticamente.",
+    "privacy": "Privacidad",
+    "profileVisibility": "Visibilidad del Perfil",
+    "profileVisibilityDescription": "Controla quién puede ver tu perfil en las listas de visorias.",
+    "visible": "Visible",
+    "hidden": "Oculto",
+    "dataManagement": "Gestión de Datos",
+    "deleteData": "Eliminar Mis Datos",
+    "deleteDataConfirmation": "¿Estás seguro? Esta acción es irreversible.",
+    "close": "Cerrar"
+  },
+   "timerComponent": {
+    "title": "Cronómetro de Entrenamiento",
+    "start": "Iniciar",
+    "stop": "Detener",
+    "lap": "Vuelta",
+    "reset": "Reiniciar",
+    "laps": "Vueltas"
+  },
+  "improvementPlanner": {
+    "title": "Planificador de Mejoras con IA",
+    "description": "Genera un plan de mejora personalizado para este atleta basado en su perfil e historial de rendimiento.",
+    "button": "Generar Plan",
+    "loading": "Generando Plan...",
+    "loaderMessage": "Analizando datos para crear consejos...",
+    "error": "No se pudo generar un plan de mejora.",
+    "focusArea": "Área de Enfoque",
+    "suggestion": "Sugerencia",
+    "drill": "Ejercicio Recomendado"
+  },
+  "chatbotComponent": {
+    "title": "Asistente de IA",
+    "description": "¡Pregúntame lo que sea sobre entrenamiento, nutrición o ciencia del deporte!",
+    "inputPlaceholder": "Escribe tu pregunta aquí...",
+    "sendMessage": "Enviar"
+  },
+  "performanceGraph": {
+    "title": "Tendencia de Rendimiento Semanal",
+    "notEnoughData": "Envía al menos dos análisis de rendimiento para ver tu gráfico de progreso."
+  }
+}

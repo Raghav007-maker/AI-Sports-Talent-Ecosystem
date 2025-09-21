@@ -1,0 +1,188 @@
+{
+  "header": {
+    "title": "AI Sports Talent",
+    "athleteDashboard": "Athlete Dashboard",
+    "coachDashboard": "Coach Dashboard",
+    "logout": "Logout"
+  },
+  "landingPage": {
+    "title": "I am a...",
+    "athlete": "Athlete",
+    "coach": "Coach",
+    "athleteDescription": "Analyze my performance, track my progress, and find opportunities.",
+    "coachDescription": "Scout talent, manage my roster, and create custom drills."
+  },
+  "loginPage": {
+    "welcome": "Welcome to the",
+    "appName": "AI Sports Talent Ecosystem",
+    "title": "{{role}} Login",
+    "emailLabel": "Email",
+    "passwordLabel": "Password",
+    "button": "Login",
+    "loading": "Logging in...",
+    "error": "Login failed. Please check your credentials and selected role.",
+    "demoAthlete": "Athlete",
+    "demoCoach": "Coach",
+    "demoInfo": "Demo {{role}}: {{email}} / {{password}}",
+    "back": "Back"
+  },
+  "athleteDashboard": {
+    "tabs": {
+      "profile": "My Profile",
+      "analyzer": "Performance Analyzer",
+      "progress": "Progress",
+      "achievements": "Achievements",
+      "leaderboard": "Leaderboard",
+      "bio": "Bio Generator",
+      "events": "Events",
+      "timer": "Timer",
+      "chatbot": "Chatbot"
+    }
+  },
+  "coachDashboard": {
+    "tabs": {
+      "roster": "My Roster",
+      "comparer": "Player Comparer",
+      "drills": "Drill Generator",
+      "leaderboard": "Leaderboard",
+      "events": "Events"
+    },
+    "myRoster": "My Roster",
+    "noAthletes": "You have not been assigned any athletes yet.",
+    "talentPool": "Talent Pool"
+  },
+  "athleteDetailView": {
+    "backToRoster": "Back to Roster",
+    "performanceHistory": "Performance History",
+    "aiAnalysis": "AI Analysis",
+    "injuryDetected": "Injury Detected",
+    "futureInjuryRisk": "Future Injury Risk",
+    "cheatDetectionLabel": "Cheat Detection",
+    "coachFeedback": "Coach Feedback",
+    "noAnalyses": "No performance analyses submitted yet.",
+    "provideFeedbackPlaceholder": "Provide constructive feedback...",
+    "submitFeedback": "Submit Feedback",
+    "noFeedback": "No feedback provided yet."
+  },
+  "profileCard": {
+    "loadImage": "Load",
+    "you": "You",
+    "sprint": "Sprint",
+    "vertical": "Vertical",
+    "endurance": "Endurance",
+    "agility": "Agility"
+  },
+  "performanceAnalyzer": {
+    "title": "AI Performance Analyzer",
+    "description": "Upload a video or image from your training to get AI feedback on your form, injury risks, and more.",
+    "showPreview": "Show Preview",
+    "previewPlaceholder": "Your uploaded video/image will be shown here.",
+    "button": "Analyze My Performance",
+    "loading": "Analyzing...",
+    "errorUpload": "Please upload a video or image first.",
+    "resultsPlaceholder": "Your AI analysis will appear here.",
+    "techniqueAnalysis": "Technique Analysis",
+    "injuryRisk": "Injury Risk Assessment",
+    "cheatDetection": "Cheat Detection",
+    "injuryDetection": "Injury Detection"
+  },
+  "bioGenerator": {
+    "title": "AI Bio Generator",
+    "description": "Enter your key achievements, stats, or aspirations, and let AI craft a professional bio for you.",
+    "placeholder": "e.g., - 2023 State Champion\n- Team Captain (2 years)\n- 4.5s 40-yard dash\n- Aspire to play D1 college basketball",
+    "button": "Generate My Bio",
+    "loading": "Generating...",
+    "loaderMessage": "Crafting your bio...",
+    "resultsPlaceholder": "Your generated bio will appear here."
+  },
+  "playerComparer": {
+    "title": "AI Player Comparer",
+    "description": "Select two athletes from the talent pool to generate an AI-powered scouting report and comparison.",
+    "button": "Compare Selected Athletes",
+    "loading": "Comparing...",
+    "loaderMessage": "Generating scouting report..."
+  },
+  "drillGenerator": {
+    "title": "AI Drill Generator",
+    "description": "Specify a sport and a skill to generate custom training drills for your team.",
+    "placeholder": "e.g., 'Dribbling under pressure'",
+    "button": "Generate Drills",
+    "loading": "Generating...",
+    "loaderMessage": "Creating custom drills...",
+    "objective": "Objective",
+    "setup": "Setup",
+    "instructions": "Instructions"
+  },
+  "progressTracker": {
+    "title": "My Progress",
+    "noHistoryTitle": "No History Yet",
+    "noHistoryDescription": "Use the Performance Analyzer to get your first AI analysis. Your progress will be tracked here.",
+    "analysisFrom": "Analysis from {{date}} at {{time}}",
+    "viewDetails": "View Details",
+    "hideDetails": "Hide Details"
+  },
+  "achievements": {
+    "title": "My Achievements",
+    "aiScore": "AI Score",
+    "streak": "Day Streak",
+    "rank": "Leaderboard Rank",
+    "badgesEarned": "Badges Earned",
+    "badges": "Badges",
+    "noBadges": "No badges earned yet. Keep up the good work!"
+  },
+  "leaderboard": {
+    "title": "Athlete Leaderboard",
+    "description": "Top athletes ranked by AI performance score and consistency.",
+    "rank": "Rank",
+    "athlete": "Athlete",
+    "aiScore": "AI Score",
+    "streak": "Streak",
+    "load": "Load"
+  },
+  "settings": {
+    "title": "Settings",
+    "buttonLabel": "Open settings",
+    "language": "Language",
+    "accessibility": "Accessibility",
+    "lowBandwidthMode": "Low Bandwidth Mode",
+    "lowBandwidthDescription": "Reduces data usage by not loading images and videos automatically.",
+    "privacy": "Privacy",
+    "profileVisibility": "Profile Visibility",
+    "profileVisibilityDescription": "Control who can see your profile in scouting lists.",
+    "visible": "Visible",
+    "hidden": "Hidden",
+    "dataManagement": "Data Management",
+    "deleteData": "Delete My Data",
+    "deleteDataConfirmation": "Are you sure? This action is irreversible.",
+    "close": "Close"
+  },
+  "timerComponent": {
+    "title": "Workout Timer",
+    "start": "Start",
+    "stop": "Stop",
+    "lap": "Lap",
+    "reset": "Reset",
+    "laps": "Laps"
+  },
+  "improvementPlanner": {
+    "title": "AI Improvement Planner",
+    "description": "Generate a personalized improvement plan for this athlete based on their profile and performance history.",
+    "button": "Generate Plan",
+    "loading": "Generating Plan...",
+    "loaderMessage": "Analyzing data to create tips...",
+    "error": "Could not generate an improvement plan.",
+    "focusArea": "Focus Area",
+    "suggestion": "Suggestion",
+    "drill": "Recommended Drill"
+  },
+  "chatbotComponent": {
+    "title": "AI Assistant",
+    "description": "Ask me anything about training, nutrition, or sports science!",
+    "inputPlaceholder": "Type your question here...",
+    "sendMessage": "Send"
+  },
+  "performanceGraph": {
+    "title": "Weekly Performance Trend",
+    "notEnoughData": "Submit at least two performance analyses to see your progress chart."
+  }
+}
